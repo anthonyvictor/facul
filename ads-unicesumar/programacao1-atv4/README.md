@@ -41,13 +41,13 @@ EMPRESA DE IMPORTAÇÃO DE PRODUTOS LTDA.
 SISTEMA DE CONTROLE DE ESTOQUE
 -
 
-|MENU PRINCIPAL 🏠
+| MENU PRINCIPAL 🏠
 -
-|1 - CADASTRO DE PRODUTOS
-|2 - MOVIMENTAÇÃO
-|3 - REAJUSTE DE PREÇOS
-|4 - RELATÓRIOS
-|0 - FINALIZAR
+| 1 - CADASTRO DE PRODUTOS
+| 2 - MOVIMENTAÇÃO
+| 3 - REAJUSTE DE PREÇOS
+| 4 - RELATÓRIOS
+| 0 - FINALIZAR
 
 >- 1 - Exibe a tela *CADASTRO DE PRODUTOS*. ✅
 >- 2 - Exibe a tela *MOVIMENTAÇÃO*. ✅
@@ -55,13 +55,13 @@ SISTEMA DE CONTROLE DE ESTOQUE
 >- 4 - Exibe a tela *RELATÓRIOS*. ✅
 >- 0 - Finaliza o app. ✅
 
-|CADASTRO DE PRODUTOS 👕
+| CADASTRO DE PRODUTOS 👕
 -
-|1 - INCLUSÃO
-|2 - ALTERAÇÃO
-|3 - CONSULTA
-|4 - EXCLUSÃO
-|0 - RETORNAR
+| 1 - INCLUSÃO
+| 2 - ALTERAÇÃO
+| 3 - CONSULTA
+| 4 - EXCLUSÃO
+| 0 - RETORNAR
 
 >- 1 - Exibe a tela *INCLUSÃO DE PRODUTO*. ✅
 >- 2 - Exibe a tela *ALTERAÇÃO DE PRODUTO*. ✅
@@ -69,14 +69,14 @@ SISTEMA DE CONTROLE DE ESTOQUE
 >- 4 - Exibe a tela *EXCLUSÃO DE PRODUTO*. ✅
 >- 0 - Retorna para a tela *MENU PRINCIPAL*. ✅
 
-|INCLUSÃO DE PRODUTO ✔️
+| INCLUSÃO DE PRODUTO ✔️
 -
-|NOME:
-|PREÇO:
-|UNIDADE:
-|QUANTIDADE:
-|CONFIRMA INCLUSÃO (S/N)? _
-|REPETIR OPERAÇÃO (S/N)? _
+| NOME:
+| PREÇO:
+| UNIDADE:
+| QUANTIDADE:
+| CONFIRMA INCLUSÃO (S/N)? _
+| REPETIR OPERAÇÃO (S/N)? _
 
 >- Validar nome do produto, não podem existir nomes duplicados. ✅
 >- O preço deve ser maior que zero. ✅
@@ -85,14 +85,14 @@ SISTEMA DE CONTROLE DE ESTOQUE
 >- Confirmar a inclusão antes de efetuá-la. ✅
 >- Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 
-|ALTERAÇÃO DE PRODUTO 🔁
+| ALTERAÇÃO DE PRODUTO 🔁
 -
-|NOME:
-|PREÇO:
-|UNIDADE:
-|QUANTIDADE:
-|CONFIRMA ALTERAÇÃO (S/N)? _
-|REPETIR OPERAÇÃO (S/N)? _
+| NOME:
+| PREÇO:
+| UNIDADE:
+| QUANTIDADE:
+| CONFIRMA ALTERAÇÃO (S/N)? _
+| REPETIR OPERAÇÃO (S/N)? _
 
 >- Ler o nome do produto e verificar se ele já está cadastrado. Se estiver, então deve-se exibir os seus dados e ler as alterações. ✅
 >- Não pode ser alterado o nome do produto, para tal deve-se excluí-lo e recadastrá-lo. ✅
@@ -100,49 +100,49 @@ SISTEMA DE CONTROLE DE ESTOQUE
 >- Confirmar a alteração antes de efetuá-la. ✅
 >- Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 
-|CONSULTA DE PRODUTO 🔎
+| CONSULTA DE PRODUTO 🔎
 -
-|NOME:
-|PREÇO:
-|UNIDADE:
-|QUANTIDADE:
-|REPETIR OPERAÇÃO (S/N)? _
+| NOME:
+| PREÇO:
+| UNIDADE:
+| QUANTIDADE:
+| REPETIR OPERAÇÃO (S/N)? _
 
 >- Ler o nome do produto e verificar se ele já está cadastrado. Se estiver então deve-se exibir os seus dados. ✅
 Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 
-|EXCLUSÃO DE PRODUTO 🚮
+| EXCLUSÃO DE PRODUTO 🚮
 -
-|NOME:
-|PREÇO:
-|UNIDADE:
-|QUANTIDADE:
-|CONFIRMA EXCLUSÃO (S/N)? _
-|REPETIR OPERAÇÃO (S/N)? _
+| NOME:
+| PREÇO:
+| UNIDADE:
+| QUANTIDADE:
+| CONFIRMA EXCLUSÃO (S/N)? _
+| REPETIR OPERAÇÃO (S/N)? _
 
 >- Ler o nome do produto e verificar se ele já está cadastrado. Se estiver, então deve-se exibir os seus dados. ✅
 >- Confirmar exclusão antes de efetuá-la. ✅
 Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 
-|MOVIMENTAÇÃO 🔃
+| MOVIMENTAÇÃO 🔃
 -
-|1 - ENTRADA
-|2 - SAÍDA
-|0 - RETORNAR
-|OPÇÃO: _
+| 1 - ENTRADA
+| 2 - SAÍDA
+| 0 - RETORNAR
+| OPÇÃO: _
 
 >- 1 - Exibe a tela *MOVIMENTAÇÃO - ENTRADA DE PRODUTO*. ✅
 >- 2 - Exibe a tela *MOVIMENTAÇÃO - SAÍDA DE PRODUTO*. ✅
 >- 0 - Retornar para a tela *MENU PRINCIPAL*. ✅
 
-|MOVIMENTAÇÃO - ENTRADA DE PRODUTO ⬅️
+| MOVIMENTAÇÃO - ENTRADA DE PRODUTO ⬅️
 -
-|PRODUTO:
-|QTDE ATUAL:
-|QTDE ENTRADA:
-|QTDE FINAL:
-|CONFIRMA ENTRADA (S/N)? _
-|REPETIR OPERAÇÃO (S/N)? _
+| PRODUTO:
+| QTDE ATUAL:
+| QTDE ENTRADA:
+| QTDE FINAL:
+| CONFIRMA ENTRADA (S/N)? _
+| REPETIR OPERAÇÃO (S/N)? _
 
 >- Ler o nome do produto e verificar se ele já está cadastrado. Se estiver, então deve-se exibir os seus dados e ler a quantidade da entrada. ✅
 >- A quantidade de entrada deve ser maior que zero. ✅
@@ -150,14 +150,14 @@ Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 >- Pedir a confirmação da operação antes de efetuá-la. ✅
 >- Ao final da operação deve-se retornar à tela de *MOVIMENTAÇÃO* ✅
 
-|MOVIMENTAÇÃO - SAÍDA DE PRODUTO ➡️
+| MOVIMENTAÇÃO - SAÍDA DE PRODUTO ➡️
 -
-|PRODUTO:
-|QTDE ATUAL:
-|QTDE SAÍDA:
-|QTDE FINAL:
-|CONFIRMA SAÍDA (S/N)? _
-|REPETIR OPERAÇÃO (S/N)? _
+| PRODUTO:
+| QTDE ATUAL:
+| QTDE SAÍDA:
+| QTDE FINAL:
+| CONFIRMA SAÍDA (S/N)? _
+| REPETIR OPERAÇÃO (S/N)? _
 
 >- Ler o nome do produto e verificar se ele já está cadastrado. Se estiver, então deve-se exibir os seus dados e ler a quantidade da saída. ✅
 >- A quantidade de saída deve ser maior que zero, e menor ou igual à quantidade atual do produto. ✅
@@ -165,15 +165,15 @@ Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 >- Pedir a confirmação da operação antes de efetuá-la. ✅
 >- Ao final da operação deve-se retornar à tela de *MOVIMENTAÇÃO* ✅
 
-|REAJUSTE DE PREÇOS 💲
+| REAJUSTE DE PREÇOS 💲
 -
-|PRODUTO:
-|PREÇO ATUAL:
-|PERCENTUAL DE REAJUSTE (%) _
-|AUMENTO OU REDUÇÃO (1/2)? _
-|NOVO PREÇO:
-|CONFIRMA REAJUSTE (S/N)? _
-|REPETIR OPERAÇÃO (S/N)? _
+| PRODUTO:
+| PREÇO ATUAL:
+| PERCENTUAL DE REAJUSTE (%) _
+| AUMENTO OU REDUÇÃO (1/2)? _
+| NOVO PREÇO:
+| CONFIRMA REAJUSTE (S/N)? _
+| REPETIR OPERAÇÃO (S/N)? _
 
 >- Ler o nome do produto e verificar se ele já está cadastrado. Se estiver, então deve-se exibir os seus dados e ler a porcentagem de reajuste. ✅
 >- A porcentagem deve ser maior que zero. ✅
@@ -182,37 +182,37 @@ Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 >- Pedir a confirmação da operação antes de efetuá-la. ✅
 >- Ao final da operação deve-se retornar à tela de *MOVIMENTAÇÃO* ✅
 
-|RELATÓRIOS 📈
--
-|1 - PRODUTOS
-|2 - MOVIMENTAÇÃO
-|0 - RETORNAR
-|OPÇÃO: _
+| RELATÓRIOS 📈
+- 
+| 1 - PRODUTOS
+| 2 - MOVIMENTAÇÃO
+| 0 - RETORNAR
+| OPÇÃO: _
 
 >- 1 - Exibe a tela *RELATÓRIOS - PRODUTOS*. ✅
 >- 2 - Exibe a tela *RELATÓRIOS - MOVIMENTAÇÃO*. ✅
 >- 0 - Retornar para a tela *MENU PRINCIPAL*. ✅
 
-|RELATÓRIOS - PRODUTOS 📋
+| RELATÓRIOS - PRODUTOS 📋
 -
-|NOME:
-|PREÇO:
-|UNIDADE:
-|QTDE:
+| NOME:
+| PREÇO:
+| UNIDADE:
+| QTDE:
 
 >- Exibir todos os produtos cadastrados. ✅
 >- Retornar à tela de *RELATÓRIOS* ✅
 
-|RELATÓRIOS - MOVIMENTAÇÃO 💵
+| RELATÓRIOS - MOVIMENTAÇÃO 💵
 -
-|PRODUTO:
-|QTDE ENTRADAS:
-|QTDE SAÍDAS:
+| PRODUTO:
+| QTDE ENTRADAS:
+| QTDE SAÍDAS:
 
-|MOVIMENTAÇÃO TOTAL 💵
+| MOVIMENTAÇÃO TOTAL 💵
 -
-|QTDE ENTRADAS:
-|QTDE SAÍDAS:
+| QTDE ENTRADAS:
+| QTDE SAÍDAS:
 
 >- Exibir movimentações de cada produto. ✅
 >- Exibir soma de todas as movimentações. ✅
