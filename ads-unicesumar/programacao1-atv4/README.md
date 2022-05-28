@@ -42,7 +42,7 @@ SISTEMA DE CONTROLE DE ESTOQUE
 -
 
 | MENU PRINCIPAL 🏠
--
+|-|
 | 1 - CADASTRO DE PRODUTOS
 | 2 - MOVIMENTAÇÃO
 | 3 - REAJUSTE DE PREÇOS
@@ -56,7 +56,7 @@ SISTEMA DE CONTROLE DE ESTOQUE
 >- 0 - Finaliza o app. ✅
 
 | CADASTRO DE PRODUTOS 👕
--
+|-|
 | 1 - INCLUSÃO
 | 2 - ALTERAÇÃO
 | 3 - CONSULTA
@@ -70,7 +70,7 @@ SISTEMA DE CONTROLE DE ESTOQUE
 >- 0 - Retorna para a tela *MENU PRINCIPAL*. ✅
 
 | INCLUSÃO DE PRODUTO ✔️
--
+|-|
 | NOME:
 | PREÇO:
 | UNIDADE:
@@ -86,7 +86,7 @@ SISTEMA DE CONTROLE DE ESTOQUE
 >- Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 
 | ALTERAÇÃO DE PRODUTO 🔁
--
+|-|
 | NOME:
 | PREÇO:
 | UNIDADE:
@@ -101,7 +101,7 @@ SISTEMA DE CONTROLE DE ESTOQUE
 >- Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 
 | CONSULTA DE PRODUTO 🔎
--
+|-|
 | NOME:
 | PREÇO:
 | UNIDADE:
@@ -112,7 +112,7 @@ SISTEMA DE CONTROLE DE ESTOQUE
 Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 
 | EXCLUSÃO DE PRODUTO 🚮
--
+|-|
 | NOME:
 | PREÇO:
 | UNIDADE:
@@ -125,7 +125,7 @@ Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 
 | MOVIMENTAÇÃO 🔃
--
+|-|
 | 1 - ENTRADA
 | 2 - SAÍDA
 | 0 - RETORNAR
@@ -136,7 +136,7 @@ Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 >- 0 - Retornar para a tela *MENU PRINCIPAL*. ✅
 
 | MOVIMENTAÇÃO - ENTRADA DE PRODUTO ⬅️
--
+|-|
 | PRODUTO:
 | QTDE ATUAL:
 | QTDE ENTRADA:
@@ -151,7 +151,7 @@ Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 >- Ao final da operação deve-se retornar à tela de *MOVIMENTAÇÃO* ✅
 
 | MOVIMENTAÇÃO - SAÍDA DE PRODUTO ➡️
--
+|-|
 | PRODUTO:
 | QTDE ATUAL:
 | QTDE SAÍDA:
@@ -166,7 +166,7 @@ Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 >- Ao final da operação deve-se retornar à tela de *MOVIMENTAÇÃO* ✅
 
 | REAJUSTE DE PREÇOS 💲
--
+|-|
 | PRODUTO:
 | PREÇO ATUAL:
 | PERCENTUAL DE REAJUSTE (%) _
@@ -183,7 +183,7 @@ Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 >- Ao final da operação deve-se retornar à tela de *MOVIMENTAÇÃO* ✅
 
 | RELATÓRIOS 📈
-- 
+|-|
 | 1 - PRODUTOS
 | 2 - MOVIMENTAÇÃO
 | 0 - RETORNAR
@@ -194,7 +194,7 @@ Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 >- 0 - Retornar para a tela *MENU PRINCIPAL*. ✅
 
 | RELATÓRIOS - PRODUTOS 📋
--
+|-|
 | NOME:
 | PREÇO:
 | UNIDADE:
@@ -204,13 +204,13 @@ Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
 >- Retornar à tela de *RELATÓRIOS* ✅
 
 | RELATÓRIOS - MOVIMENTAÇÃO 💵
--
+|-|
 | PRODUTO:
 | QTDE ENTRADAS:
 | QTDE SAÍDAS:
 
 | MOVIMENTAÇÃO TOTAL 💵
--
+|-|
 | QTDE ENTRADAS:
 | QTDE SAÍDAS:
 
