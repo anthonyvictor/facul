@@ -54,7 +54,7 @@ public class ProjetoImpl implements ProjetoDAO {
         if (p == null) {
             throw new DadoConsultadoException();
         } else {
-            Projeto projetoNovo = new Projeto();
+            Projeto projetoNovo = new Projeto();            
             projetoNovo.substituir(projeto);
             projetos.remove(p);
             projetos.add(projetoNovo);
