@@ -5,92 +5,70 @@
 
 ### Material de avaliação prática - M.A.P.A.
  
-❇️ Para a atividade mapa da disciplina, analise o estudo de caso de um **controle de estoque** e desenvolva o programa para solucionar o problema.
+❇️ Para a atividade mapa da disciplina, analise o estudo de caso de um **controle de |estoque** e desenvolva o programa para solucionar o problema.
 
-***O DONO DE UMA EMPRESA DE IMPORTAÇÃO*** necessita de um sistema para efetuar o controle da entrada e saída de mercadorias no estoque de sua empresa.
-Para isso, ele informa que as operações diárias se resume em quatro funções que o sistema precisa contemplar, que são:
-- ***Cadastro de Produtos***: consiste nas operações de inclusão, alteração, consulta e exclusão de um produto.
-- ***Movimentação***: consiste nas operações de entrada e saída de produtos no estoque.
-- ***Reajuste de Preços***: consiste em aumentar o preço unitário por percentual de um ou mais produtos do estoque.
-- ***Relatório***: lista de Produtos.
+O ***Gestor da empresa que você trabalha***, necessita manter um registro dos **projetos de TI**. Este controle, atualmente, não existe... as informações e iniciativas estão de forma informal em troca de e-mails e mensagens.
 
-***O DONO DE UMA EMPRESA DE IMPORTAÇÃO*** informa que é necessário um controle eficiente do estoque, que permita a sua empresa ter um planejamento melhor de suas compras, na medida em que tem condições de saber quando e quanto deverá comprar para repor suas necessidades e atender bem a demanda de seus clientes.
-
-O **controle do estoque** é feito pela atualização das quantidades disponíveis de cada um dos itens do estoque. Isso é feito por meio de um levantamento de todos os produtos com os quais a empresa trabalha. Após o levantamento, todos os produtos deverão ser mantidos no sistema (operações de *inclusão, alteração, consulta e exclusão* de produtos), para que a partir desse momento, o sistema reflita exatamente o que existe no estoque da empresa.
-
-A cada nova entrada ou saída de produtos do estoque (movimentação), o saldo atual do produto é atualizado.
-
-
-Para ***O DONO DE UMA EMPRESA DE IMPORTAÇÃO***, existem um relatório importante:
-Lista de Preços: uma relação de todos os produtos do estoque, constando o preço de cada um deles, unidade medida e quantidade.
-As informações de um produto são:
+Nesta primeira versão, o gestor solicita que você registre os seguintes dados dos projetos:
 - Nome;
-- Preço Unitário;
-- Unidade;
-- Quantidade em Estoque.
+- Objetivo;
+- Necessidades;
+- Data de início (data no formato dd/mm/aaaa);
+- Data Final (data no formato dd/mm/aaaa);
+- Status.
+  
+O objetivo desta primeira versão é que seja possível *incluir*, *alterar*, *listar* todos, *buscar* por nome e *excluir* os dados. Possibilitando um registro **único** de cada projeto, no qual para identificar se é único consiste em não existir projetos com **nomes duplicados**.
+
 
 #### Especificações do app
-- Crie um programa que utilize a **orientação objeto** em Java.
+- A aplicação deve conter **tratamento dos erros** para os cenários possíveis.
 - Deverá oferecer uma **interface de usuário** simples, com diálogos explicativos.
-- O programa deverá ser desenvolvido dentro de boas técnicas de programação e utilizar a orientação a objetos (**JAVABEAN**).
-- Os **relatórios** deverão ser feitos para serem exibidos no vídeo.
-- Os dados deverão ser **armazenados em memória**.
-- Alguns layouts de telas são representados, a seguir, como sugestão, podendo ser alterados esteticamente, desde que apresentem as informações e funcionalidades especificadas.
+- As funcionalidades de *listar* e *consultar* deverá exibir os **dados do projeto**.
+- Complete o programa em **Java** para que possa controlar o cadastro por meio de uma Collection.
+- Implemente a **classe** *“ProjetoImpl”* para que resolva as funcionalidades que se espera no programa.​
 
-EMPRESA DE IMPORTAÇÃO DE PRODUTOS LTDA.
-SISTEMA DE CONTROLE DE ESTOQUE
+SISTEMA DE CONTROLE DE PROJETOS
 -
 
 | MENU PRINCIPAL 🏠
 |-|
-| 1 - CADASTRO DE PRODUTOS
-| 2 - MOVIMENTAÇÃO
-| 3 - REAJUSTE DE PREÇOS
-| 4 - RELATÓRIOS
+| 1 - CADASTRAR
+| 2 - ALTERAR
+| 3 - LISTAR
+| 4 - BUSCAR POR NOME
+| 5 - EXCLUIR
 | 0 - FINALIZAR
 
->- 1 - Exibe a tela *CADASTRO DE PRODUTOS*. ✅
->- 2 - Exibe a tela *MOVIMENTAÇÃO*. ✅
->- 3 - Exibe a tela *REAJUSTE DE PREÇOS*. ✅
->- 4 - Exibe a tela *RELATÓRIOS*. ✅
+>- 1 - Exibe a tela *INCLUSÃO DE PROJETO*. ✅
+>- 2 - Exibe a tela *ALTERAR PROJETO*. ✅
+>- 3 - Exibe a tela *EXCLUIR PROJETO*. ✅
+>- 4 - Exibe a tela *LISTA DE PROJETOS*. ✅
+>- 5 - Exibe a tela *BUSCAR PROJETO*. ✅
 >- 0 - Finaliza o app. ✅
 
-| CADASTRO DE PRODUTOS 👕
+| INCLUSÃO DE PROJETO ✔️
 |-|
-| 1 - INCLUSÃO
-| 2 - ALTERAÇÃO
-| 3 - CONSULTA
-| 4 - EXCLUSÃO
-| 0 - RETORNAR
-
->- 1 - Exibe a tela *INCLUSÃO DE PRODUTO*. ✅
->- 2 - Exibe a tela *ALTERAÇÃO DE PRODUTO*. ✅
->- 3 - Exibe a tela *CONSULTA DE PRODUTO*. ✅
->- 4 - Exibe a tela *EXCLUSÃO DE PRODUTO*. ✅
->- 0 - Retorna para a tela *MENU PRINCIPAL*. ✅
-
-| INCLUSÃO DE PRODUTO ✔️
-|-|
-| NOME:
-| PREÇO:
-| UNIDADE:
-| QUANTIDADE:
+| NOME? _
+| OBJETIVO? _
+| NECESSIDADES? _
+| DATA INICIAL (dd/mm/aaaa)? _
+| DATA FINAL (dd/mm/aaaa)? _
 | CONFIRMA INCLUSÃO (S/N)? _
 | REPETIR OPERAÇÃO (S/N)? _
 
->- Validar nome do produto, não podem existir nomes duplicados. ✅
->- O preço deve ser maior que zero. ✅
->- A quantidade deve ser maior ou igual a zero. ✅
+>- Validar nome do projeto, não podem existir nomes duplicados. ✅
+>- As datas devem estar no formato (dd/mm/aaaa). ✅
+>- A data final deve ser posterior à data inicial. ✅
 >- Caso algum dos critérios de validação anterior não seja atendido, deve-se exibir uma mensagem de erro e solicitar a redigitação da informação errada. ✅
 >- Confirmar a inclusão antes de efetuá-la. ✅
->- Ao final da operação deve-se retornar à tela de *CADASTRO DE PRODUTOS*. ✅
+>- Ao final da operação deve-se retornar à tela de *MENU PRINCIPAL*. ✅
 
-| ALTERAÇÃO DE PRODUTO 🔁
+| ALTERAÇÃO DE PROJETO 🔁
 |-|
-| NOME:
-| PREÇO:
-| UNIDADE:
-| QUANTIDADE:
+| OBJETIVO? _
+| NECESSIDADES? _
+| DATA INICIAL (dd/mm/aaaa)? _
+| DATA FINAL (dd/mm/aaaa)? _
 | CONFIRMA ALTERAÇÃO (S/N)? _
 | REPETIR OPERAÇÃO (S/N)? _
 
