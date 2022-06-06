@@ -57,7 +57,7 @@ void listar(){
 }
 
 void menu() {
- 	int opcao;
+ 	int opcao = -1;
     printf("\nDigite o número correspondente à opção desejada:\n");
     printf("1: - Inserir novo cliente.\n");
     printf("2: - Mostrar lista de clientes.\n");
@@ -77,6 +77,7 @@ void menu() {
           break;
       default:
           printf("\nOpção incorreta!\n");
+          fflush(stdin);
           menu();
           break;
    } 
